@@ -19,6 +19,10 @@ public class HomePageObject extends BasePage {
         waitForElementInvisible(driver,CommonPageUI.ADD_SUCCESS_MESSAGE);
         clickToElement(driver,link);
     }
+    public void clickLogInLink(){
+        Log.allure("Click link log in");
+        clickToElement(driver,HomePageUI.LOG_IN_LINK);
+    }
     @Step()
     public void clickDynamicHeaderMenu(String headerItem, String params){
         clickToElement(driver,headerItem, params);

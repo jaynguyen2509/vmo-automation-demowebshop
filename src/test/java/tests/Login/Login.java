@@ -31,7 +31,7 @@ public class Login extends BaseTest {
     @Test(dataProvider = "Test data Login")
     @Description("Login Success")
     public void TC01_Login_Success(String STT, String email, String password, String expectedMsg) {
-        homePageObject.clickLink(HomePageUI.LOGIN_LINK);
+        homePageObject.clickLogInLink();
         loginPageObject.sendKeysEmailPassword(email, password);
         loginPageObject.clickLoginBtn();
         verifyTrue(loginPageObject.verifyLogin(expectedMsg));
