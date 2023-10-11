@@ -53,8 +53,6 @@ public class BuyBooks extends BaseTest {
 
         booksTagPageObject.hoverOnShoppingCart();
         List<String> highestRatingBooksNames = booksTagPageObject.listItemNames(lisTopTwoRating);
-        List<String> test = booksTagPageObject.listItemInShoppingCart();
-        System.out.println(test);
         verifyTrue(booksTagPageObject.isShoppingCartContainsAddedItem(highestRatingBooksNames));
     }
 }

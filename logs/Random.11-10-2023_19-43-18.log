@@ -1,0 +1,26 @@
+[11-10-2023 19:43:18.653 INFO] - ------------ Test is starting ------------
+[11-10-2023 19:43:26.244 INFO] - ------------ Test STARTED ------------
+[11-10-2023 19:43:27.678 INFO] - Click link header menu item Books
+[11-10-2023 19:43:27.702 INFO] - Verify String https://demowebshop.tricentis.com/books and https://demowebshop.tricentis.com/books
+[11-10-2023 19:43:27.709 INFO] - Get all item's rating value to a list
+[11-10-2023 19:43:27.799 INFO] - Sort rating value in list in DESC order
+[11-10-2023 19:43:27.800 INFO] - Get current cart's quantity
+[11-10-2023 19:43:27.828 INFO] - Add width: 59% via index to cart
+[11-10-2023 19:43:29.063 INFO] - Get text of element //div[@id='bar-notification']//p
+[11-10-2023 19:43:29.145 INFO] - Verify cart is increased
+[11-10-2023 19:43:29.145 INFO] - Get current cart's quantity
+[11-10-2023 19:43:29.191 INFO] - Verify if true is true
+[11-10-2023 19:43:29.192 INFO] - Get current cart's quantity
+[11-10-2023 19:43:29.215 INFO] - Add width: 55% via index to cart
+[11-10-2023 19:43:30.386 INFO] - Get text of element //div[@id='bar-notification']//p
+[11-10-2023 19:43:30.460 INFO] - Verify cart is increased
+[11-10-2023 19:43:30.462 INFO] - Get current cart's quantity
+[11-10-2023 19:43:30.489 INFO] - Verify if true is true
+[11-10-2023 19:43:30.489 INFO] - Hover mouse on shopping cart
+[11-10-2023 19:43:37.013 INFO] - Get all item name into a list
+[11-10-2023 19:43:37.108 INFO] - Get current item names in shopping cart
+[11-10-2023 19:43:37.144 INFO] - Check if item is in the list
+[11-10-2023 19:43:37.145 INFO] - Get current item names in shopping cart
+[11-10-2023 19:43:37.181 INFO] - Verify if false is true
+[11-10-2023 19:43:37.186 INFO] - --------------- TC02_Book_AddToCart_HighestRate FAILED -----------------
+[11-10-2023 19:43:37.610 INFO] - ------------ Test FINISHED ------------

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VMO PRACTICE">
+    <listeners>
+        <listener class-name="vmo.demowebshop.helper.TestNGListener"/>
+    </listeners>
+    <test name="DemoWebShop">
+        <parameter name ="browser" value ="CHROME"></parameter>
+        <classes>
+            <class name="tests.Login.Login"></class>
+            <class name="tests.Books.BuyBooks"></class>
+            <class name="tests.HomePage.FeaturedProducts"></class>
+            <class name="tests.DigitalsDownload.DigitalsDownload"></class>
+        </classes>
+    </test>
+</suite>
